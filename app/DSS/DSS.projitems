@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{A2BBB01E-E39F-462F-A429-8894A1138EDB}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DSS</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\HomePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\QueuePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\TopicSelectionPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Term.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Configuration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Android\Connection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AccessViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ContentViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewControl\BindableCollectionPicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TaxonomyModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IImageFileData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Android\ImageFileData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IMediaFilePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Android\MediaFilePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Event\MediaFilePickerEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\UploadPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AbstractLoadingViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Android\FolderManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IFolderManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\Client.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\Storage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Content.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\ContentRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\AbstractConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Language.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\Vimeo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\i18n.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\Strings\EsStringCatalog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\AbstractStringsCatalog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\i18nException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity\Genre.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Android\AudioRecorderNotFoundException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewControl\FileCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\UserContenPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserContentViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewControl\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\UserModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\LoginPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\OptionsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\OptionsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\Strings\EuStringCatalog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\Strings\FrStringCatalog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)i18n\Strings\EnStringCatalog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\NetworkException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Service\ProjectOptions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Page\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Entity\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Interfaces\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Android\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewControl\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Event\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Service\" />
+    <Folder Include="$(MSBuildThisFileDirectory)i18n\" />
+    <Folder Include="$(MSBuildThisFileDirectory)i18n\Strings\" />
+  </ItemGroup>
+</Project>

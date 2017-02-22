@@ -1,0 +1,42 @@
+﻿<Properties StartupItem="Droid/DSS.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.10.71.34.101:5555" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="DSS/ViewControl/Extensions.cs" Line="17" Column="134" />
+      <File FileName="DSS/Page/LoginPage.cs" Line="92" Column="1" />
+      <File FileName="DSS/Android/AudioRecorderNotFoundException.cs" Line="1" Column="1" />
+      <File FileName="DSS/Android/MediaFilePicker.cs" Line="135" Column="40" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="19" Column="12" />
+      <File FileName="DSS/Page/HomePage.cs" Line="83" Column="105" />
+      <File FileName="DSS/Page/UploadPage.cs" Line="88" Column="6" />
+      <File FileName="DSS/Page/QueuePage.cs" Line="25" Column="2" />
+      <File FileName="DSS/Page/UserContenPage.cs" Line="61" Column="112" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DSS" expanded="True">
+            <Node name="DSS.Droid" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Service/Vimeo.cs" line="148" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Service/Vimeo.cs" line="117" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Service/Vimeo.cs" line="112" column="19" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Service/Vimeo.cs" line="110" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Service/Vimeo.cs" line="100" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Android/ImageFileData.cs" line="161" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Android/MediaFilePicker.cs" line="291" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Android/MediaFilePicker.cs" line="295" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Android/MediaFilePicker.cs" line="135" column="1" />
+      <Breakpoint file="/Users/asierm/Projects/DSS/DSS/Android/MediaFilePicker.cs" line="137" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="DSS/Model/TaxonomyModel.cs" line="76" offsetX="436" offsetY="1125" expression="json" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
